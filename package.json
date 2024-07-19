@@ -1,0 +1,19 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "To learn How to create a structure and works in Industrial Level as a backend ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Javascript",
+    "other",
+    "framworks",
+    "and",
+    "library"
+  ],
+  "author": "Harshal Shastrakar",
+  "license": "ISC"
+}
