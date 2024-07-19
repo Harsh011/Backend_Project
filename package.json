@@ -2,9 +2,10 @@
   "name": "backend_project",
   "version": "1.0.0",
   "description": "To learn How to create a structure and works in Industrial Level as a backend ",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Node",
@@ -15,5 +16,9 @@
     "library"
   ],
   "author": "Harshal Shastrakar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "^3.3.3"
+  }
 }
