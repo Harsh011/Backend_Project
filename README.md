@@ -28,3 +28,5 @@ first time to create a folder and files
     - remove password and refresh token field form response
     - check for user creation
     - return res
+
+14. To check properly mongo atlas and postman to register is work or not

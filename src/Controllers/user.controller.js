@@ -39,7 +39,16 @@ const registerUser = asyncHandler(async (req, res) => {
 
   //checks for images and check for avatar
   const avatarLoacalPath = req.files?.avatar[0]?.path;
-  const coverImageLocalPath = req.files?.coverImage[0]?.path;
+  //   const coverImageLocalPath = req.files?.coverImage[0]?.path;
+
+  let coverImageLocalPath;
+  if (
+    req.files &&
+    Array.isArray(req.files.coverImage) &&
+    req.files.coverImage.length > 0
+  ) {
+    coverImageLocalPath = req.files.coverImage[0].path;
+  }
 
   if (!avatarLoacalPath) {
     throw new ApiError(400, "Avatar is required");
@@ -68,6 +77,7 @@ const registerUser = asyncHandler(async (req, res) => {
     "-password -refreshToken"
   );
 
+  console.log(createdUser);
   //check for user creation
   if (!createdUser) {
     throw new ApiError(500, "something went wron registering the user");
