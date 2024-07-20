@@ -14,3 +14,4 @@ first time to create a folder and files
 9. then inside the usermodel to convert the password bcrypt and compare data base password and login password
 10. setup to cloudnairy
 11. and then multer we use to store the file through in middlewear
+12. create a controller to write a functionality is proper is work and also create a routes then checks the postman to run properly is work or not
