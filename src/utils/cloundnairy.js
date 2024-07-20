@@ -3,9 +3,9 @@ import { response } from "express";
 import fs from "fs";
 
 cloudinary.config({
-  cloud_name: CLOUNDNAIRY_CLOUD_NAME,
-  api_key: CLOUNDNAIRY_API_KEY,
-  api_secret: CLOUNDNAIRY_API_SECRET,
+  cloud_name: process.envCLOUNDNAIRY_CLOUD_NAME,
+  api_key: process.envCLOUNDNAIRY_API_KEY,
+  api_secret: process.envCLOUNDNAIRY_API_SECRET,
 });
 
 const uploadCloudnairy = async (locaFilePath) => {

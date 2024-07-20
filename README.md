@@ -15,3 +15,16 @@ first time to create a folder and files
 10. setup to cloudnairy
 11. and then multer we use to store the file through in middlewear
 12. create a controller to write a functionality is proper is work and also create a routes then checks the postman to run properly is work or not
+13. write a functionality on controller to validation setup by step controller write in register user
+
+    - follow the steps to create a controllers
+
+    - get user details from frontend
+    - validation - not empty
+    - check if user already exists: username , email
+    - checks for images and check for avatar
+    - uopload them to cloudninary, avatar
+    - create user object -create entery in db
+    - remove password and refresh token field form response
+    - check for user creation
+    - return res
