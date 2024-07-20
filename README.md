@@ -10,3 +10,5 @@ first time to create a folder and files
 5. add the middlewear cors, express.json, express.status, cookiepreser, express.urlecoded
 6. then utils create a folder asynhander, Apiresponse, ApiError
 7. in asynHadnler to create a Promise to resolve the function and in ApiError to create a error what status is shown and also ApiRespone in What respose is getting
+8. create a usermodel and videomodel inside what is nesscessary database store a data
+9. then inside the usermodel to convert the password bcrypt and compare data base password and login password
